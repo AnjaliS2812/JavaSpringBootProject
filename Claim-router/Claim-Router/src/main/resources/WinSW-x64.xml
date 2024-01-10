@@ -1,0 +1,14 @@
+
+<service>
+  
+  <!-- ID of the service. It should be unique across the Windows system-->
+  <id>SwitchRouter-1.1</id>
+  <!-- Display name of the service -->
+  <name>SwitchRouter (powered by WinSW)</name>
+  <!-- Service description -->
+  <description>SwitchRouter-1.1 configuration</description>
+  
+  <!-- Path to the executable, which should be started -->
+   <executable>java</executable>
+   <arguments>-jar SwitchRouter-1.1.jar</arguments>
+</service>
